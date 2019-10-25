@@ -1,5 +1,5 @@
 module OmniAuth
   module University2035
-    VERSION = "1.0"
+    VERSION = "1.1"
   end
 end
