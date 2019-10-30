@@ -8,9 +8,9 @@ module OmniAuth
       option :client_options, {}
 
       option :production_client_options,
-             site: 'https://api.2035.university/',
-             token_url: 'https://api.2035.university/oauth2/access_token',
-             authorize_url: 'https://api.2035.university/oauth2/authorize'
+             site: 'https://sso.2035.university/',
+             token_url: 'https://sso.2035.university/oauth2/access_token',
+             authorize_url: 'https://sso.2035.university/oauth2/authorize'
       option :sandbox_client_options,
              site: 'https://sso.u2035test.ru/',
              authorize_url: 'https://sso.u2035test.ru/oauth2/authorize',
